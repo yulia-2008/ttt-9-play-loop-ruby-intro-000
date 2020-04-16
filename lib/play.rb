@@ -38,9 +38,5 @@ end
 # Define your play method below
 
 play(board)
-count=turn(board)
-loop do 
-  count+=1
-  break if count==9
-end
+9.times{turn(board)
 end
