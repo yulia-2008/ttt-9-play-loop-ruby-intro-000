@@ -38,7 +38,8 @@ end
 # Define your play method below
 
 play(board)
+count=turn(board)
 loop do 
-  turn(board)
+  count+=1
   break if 
 end
