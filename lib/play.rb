@@ -41,5 +41,5 @@ play(board)
 count=turn(board)
 loop do 
   count+=1
-  break if 
+  break if count==9
 end
