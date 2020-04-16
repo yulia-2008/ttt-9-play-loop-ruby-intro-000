@@ -37,3 +37,8 @@ end
 
 # Define your play method below
 
+play(board)
+loop do 
+  turn(board)
+  break if 
+end
